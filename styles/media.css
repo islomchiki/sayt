@@ -1,0 +1,788 @@
+@media(max-width: 1400px) {}
+
+@media(max-width: 1200px) {
+
+    .footer__start {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer__btns {
+        margin-left: 25px;
+    }
+
+    .footer__box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .inputs {
+        margin-top: 50px;
+        margin-left: -140px;
+    }
+
+    .footer__box-minii {
+        margin-top: 300px;
+    }
+
+    .sotr__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .sotr__box-- {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 82px;
+    }
+}
+
+
+
+@media(max-width: 1056px) {
+
+    .main__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main__mobail {
+        flex-direction: column;
+        margin: 70px 0;
+    }
+
+    .main__mobail__cards- {
+        margin-bottom: -68px;
+        margin: 16px 0;
+    }
+
+    .main__mobaill {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    .main__status__p {
+        flex-wrap: wrap;
+    }
+
+    .linia__grandiant {
+        display: none;
+    }
+
+    .linia__liniargrandient__2 {
+        display: none;
+    }
+
+    .main__mobail__cards--- {
+        display: none;
+    }
+
+    .linia__grandiant--3 {
+        display: none;
+    }
+
+    .linia__grandiant--5 {
+        display: none;
+    }
+
+    .linia__grandiant--2 {
+        display: none;
+    }
+
+
+    .iphon-- {
+        margin-left: -200px;
+    }
+
+    .main__kalkuliator {
+        margin-left: 230px;
+    }
+
+    .main__card {
+        margin: 0 auto;
+    }
+
+    .main__df {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__df__Logo {
+        margin-left: 38px;
+
+    }
+}
+
+
+
+@media(max-width: 992px) {
+
+    .img__fox {
+        width: 600px;
+        margin-top: 100px;
+    }
+
+    .main__status__p {
+        width: 600px;
+        margin: 30px 0;
+    }
+
+    .radios__min {
+        margin-left: -366px;
+    }
+
+    .main__bonus__box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__psevdo {
+        margin-top: 400px;
+    }
+
+    .main__psevdo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .main__9__box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone__aka {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__9__box-mini {
+        margin: 87px 0;
+    }
+
+    .akademy {
+        display: none;
+    }
+
+    .karobka_section {
+        justify-content: center;
+        align-items: center;
+        margin-top: 549px;
+    }
+
+
+    .img__iphon-max {
+        margin-left: -186px;
+    }
+
+    .vpn__radios {
+        margin-left: -251px;
+    }
+
+    .vpn__box-minii {
+        margin-top: 60px;
+    }
+
+    .vpn__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__logo {
+        display: none;
+    }
+
+    .main__df__Logoo {
+        width: 600px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rotete {
+        display: flex;
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+
+    .main__df {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__df-mini {
+        margin-left: 149px;
+        margin-top: 40px;
+    }
+
+    .main__df__Logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main__kalkuliator {
+        margin-left: 130px;
+    }
+
+    .main__big__box {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .togler {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-top: -30px;
+        z-index: 99;
+    }
+
+
+    .logo__logo {
+        margin-left: 443px;
+    }
+
+    .togler span {
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #fff;
+        transition: 0.5s;
+    }
+
+    .togler span:nth-child(1) {
+        transform: translateY(-15px);
+        width: 25px;
+        left: 15px;
+    }
+
+    .togler.active span:nth-child(1) {
+        width: 40px;
+        transform: translateY(0px) rotate(45deg);
+        transition-delay: 0.125s;
+    }
+
+
+    .title__h1 {
+        width: 700px;
+        height: 288px;
+        font-size: 70px;
+    }
+
+    .togler span:nth-child(2) {
+        transform: translateY(15px);
+        width: 15px;
+        left: 15px;
+    }
+
+
+    .togler span:nth-child(2) {
+        transform: translateY(15px);
+        width: 25px;
+        left: 15px;
+    }
+
+    .togler.active span:nth-child(2) {
+        width: 40px;
+        transform: translateY(0px) rotate(315deg);
+        transition-delay: 0.25s;
+    }
+
+    .togler.active span:nth-child(3) {
+        transform: translateX(60px);
+    }
+
+    nav {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #000;
+
+    }
+
+    nav.active {
+        left: 0;
+        transition: all 0.9s;
+    }
+
+    .nav.active {
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .icon {
+        font-size: 35px;
+    }
+
+    .link {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+}
+
+
+
+
+@media(max-width: 768px) {
+
+    .btn__icon {
+        display: none;
+    }
+
+    .main__main {
+        /* width: 400px;
+        height: 400px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team__team {
+        display: none;
+    }
+
+
+    .section__9__title {
+        display: none;
+    }
+
+    .karobka_section {
+        width: 100%;
+        max-width: 500px;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 99px;
+    }
+
+
+    .section__7__link {
+        margin-left: 330px;
+    }
+
+    .input__main {
+        width: 486px;
+        height: 45px;
+    }
+
+    .main__df__Logoo {
+        width: 497px;
+        height: 200px;
+    }
+
+    .main__lii {
+        flex-wrap: wrap;
+        font-size: 14px;
+        max-width: 400px;
+    }
+
+
+    .main__li {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .main__kalkuliator {
+        margin-left: 10px;
+    }
+
+    .logo__logo {
+        margin-left: 290px;
+    }
+
+    .title__h1 {
+        width: 478px;
+        height: 288px;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .linia {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 200px;
+    }
+
+
+    .main__df-mini {
+        margin-left: 90px;
+
+    }
+
+    .box__h2 {
+        font-size: 26px;
+    }
+
+
+    .main__status__p {
+        width: 564px;
+
+    }
+
+    .img__fox {
+        width: 550px;
+
+    }
+
+    .photo__img {
+        width: 500px;
+    }
+
+}
+
+
+@media(max-width: 576px) {
+
+    .img__fox {
+        width: 450px;
+        margin-top: 300px;
+    }
+
+    .main__status__p {
+        width: 400px;
+    }
+
+    .btn__icon {
+        display: none;
+    }
+
+    .photo {
+        margin-left: -10px;
+    }
+
+    .karobka_section {
+        margin-left: -1px;
+    }
+
+    .main__df__Logoo {
+        width: 450px;
+        height: 100px;
+    }
+
+    .box__h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .input__main {
+        width: 359px;
+        height: 45px;
+    }
+
+
+    .section__7__link {
+        margin-left: 9px;
+    }
+
+    .df__btn {
+        padding: 15px 40px;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #4988ff 0%, #5293ff 25%, #5e9eff 50%, #6ba9ff 75%, #79b3ff 100%);
+        box-shadow: 0px 0px 15px 4px rgba(86, 151, 255, );
+    }
+
+    .kl__p {
+        text-align: center;
+    }
+
+    .main__kalkulator__btn {
+        width: 467px;
+        height: 69px;
+    }
+
+    .card__h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .logo__logo {
+        margin-left: 200px;
+    }
+
+    .main__kalkuliator__p {
+        flex-wrap: wrap;
+    }
+
+    .range {
+        width: 348px;
+        height: 10px;
+    }
+
+    .main {
+        font-size: 12px;
+    }
+
+    .footer__img {
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 480px) {
+
+    .sotr__box-minii{
+        margin-top: 50px;
+    }
+
+    .psevdo__btn {
+        padding: 16px 22px;
+        font-size: 17px;
+
+    }
+
+    .psevdo__rotete {
+        width: 353px;
+        height: 365px;
+        margin-left: -89px;
+    }
+
+    .main__list {
+        flex-wrap: wrap;
+    }
+
+    .photo__img {
+        width: 322px;
+    }
+
+    .radios__main {
+        margin-left: -25px;
+    }
+
+    .main__df-img {
+        width: 327px;
+    }
+
+    .main__df--iphon {
+        margin-left: -16px;
+    }
+
+    .main__df__Logoo {
+        width: 300px;
+    }
+
+    .big__max {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main {
+        font-size: 20px;
+    }
+
+    .max {
+        font-size: 20px;
+    }
+
+    .main__kalkulator__btn {
+        width: 338px;
+        height: 69px;
+    }
+
+    .txt__p {
+        text-align: center;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .logo__logo {
+        margin-left: 178px;
+    }
+
+    .title__h1 {
+        width: 363px;
+        height: 278px;
+        font-size: 45px;
+    }
+
+    .range {
+        width: 276px;
+        height: 10px;
+    }
+
+    .main__kalkulator__btn {
+        width: 279px;
+        height: 60px;
+    }
+
+    .main__card {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card__p {
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 61px;
+    }
+
+    .play__p {
+        margin: 20px 0;
+    }
+
+    .df__btn {
+        font-size: 17px;
+        padding: 15px 35px;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #4988ff 0%, #5293ff 25%, #5e9eff 50%, #6ba9ff 75%, #79b3ff 100%);
+        box-shadow: 0px 0px 15px 4px rgba(86, 151, 255, );
+    }
+
+    .vpn__radios {
+        margin-left: -214px;
+    }
+
+    .img__iphon-max {
+        margin-left: -145px;
+    }
+
+    .market {
+        margin: 20px 0;
+    }
+
+    .phon__ {
+        padding: 15px 61px;
+    }
+
+    .phon__btn {
+        padding: 15px 64px;
+    }
+
+    .main__p--p {
+        flex-wrap: wrap;
+        font-weight: 800;
+        font-size: 13px;
+        width: 250px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .number {
+        padding: 20px 27px;
+    }
+
+    .sotr__number {
+        margin-left: 124px;
+    }
+
+    .main__status__p {
+        font-weight: 400;
+        font-size: 15px;
+        width: 320px;
+    }
+
+    .img__fox {
+        margin-top: 150px;
+        width: 340px;
+    }
+
+    .main__studia__h2 {
+        text-align: center;
+        font-size: 43px;
+        margin: 77px 0;
+    }
+
+
+    .img__linia__ {
+        display: none;
+    }
+
+    .img__linia___ {
+        display: none;
+    }
+
+    .img__linia____ {
+        display: none;
+    }
+
+    .sot__h2 {
+        font-size: 35px;
+    }
+
+}
+
+
+
+@media(max-width: 320px) {
+    .title__h1 {
+        font-size: 40px;
+        width: 310px;
+    }
+}
+
+
+
+
+@media(max-width: 360px) {
+    .title__h1 {
+        font-size: 45px;
+        width: 330px;
+    }
+
+    .psevdo__btn {
+        padding: 16px 15px;
+    }
+}
+
+
+@media(max-width: 412px) {
+    .logo {
+        margin-left: -40px;
+    }
+}
